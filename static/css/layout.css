@@ -1,0 +1,157 @@
+/* ------------------------------------
+   Body
+*/
+body {
+  font-family: 'PT Mono', monospace;
+  min-height: 100vh;
+}
+
+h2 {
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+/* ------------------------------------
+   Navigation
+*/
+/* Do this if you want to change the color of the navbar */
+.navbar.bg-dark {
+  background-color: #222222 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(255,223,0)!important;
+}
+
+/* This will insert a space of height 75px before every id:
+   https://github.com/twbs/bootstrap/issues/1768 check the solution from @mnot
+*/
+*[id]:before {
+  display: block;
+  content: " ";
+  margin-top: -75px;
+  height: 75px;
+  visibility: hidden;
+}
+
+
+/* ------------------------------------
+   Jumbotron
+*/
+.jumbotron.jumbotron-fluid {
+  background-color: #57595D;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  color: white;
+}
+
+
+/* ------------------------------------
+   About Me
+*/
+.about-me .container .me {
+  background-size: cover;
+  background-image: url("../images/about_pic2.jpg");
+  background-position:center;
+  background-repeat:no-repeat;
+  height: 500px;
+  border-radius: 15px;
+  padding-right:100px;
+ 
+}
+.center {
+	text-align: center;
+}
+.col-md-8 {
+  padding-left: 150px;
+}
+
+.about-text-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* ------------------------------------
+   section
+*/
+.section {
+  margin-top: 100px;
+}
+
+.row.extra {
+  margin-top: 100px;
+}
+
+.pics img {
+  display: block;
+  height: 150px;
+  margin: auto;
+}
+
+.project-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+	
+.gold {
+    background-color: rgb(255, 223, 0) !important;
+    color: black !important;
+    width: 95%;
+    font-weight: bold !important;
+    border-radius: 25px;
+	border-color: black !important;
+    font-size: 15px;
+    text-align: center;
+}
+.gold:hover {
+	background-color: rgb(211, 211, 211) !important;
+}
+
+.bold {
+	font: bold !important ;
+}
+.fleft {
+	float: left;
+}
+
+.height {
+	min-height: 100% !important
+}
+
+/* ------------------------------------
+   Footer
+*/
+footer {
+  
+  margin-top: 100px;
+  margin-bottom: 0px;
+  padding-left: 25px;
+  background-color: #222222;
+  color: white;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+  text-align: inline;
+  font: bold;
+}
+
+.footer ul {
+  list-style-type: row;
+}
+
+.footer li{
+  display: inline;
+  color: rgb(255,223,0);
+}
+.footer li.customclass {
+	color: white;
+}
+
+.footer li  :hover {
+	color:#ffdf00; }
